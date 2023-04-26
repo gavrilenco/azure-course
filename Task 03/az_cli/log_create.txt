@@ -1,0 +1,26 @@
+egavrilenko@ODL2011007 Task 03 % bash resource_create.sh
+{
+  "id": "/subscriptions/44d15a63-4c58-4e53-b410-5ab26efc30c4/resourceGroups/test_resource_group_lesson_3",
+  "location": "westus",
+  "managedBy": null,
+  "name": "test_resource_group_lesson_3",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+Ignite (November) 2023 onwards "az vm/vmss create" command will deploy Gen2-Trusted Launch VM by default. To know more about the default change and Trusted Launch, please visit https://aka.ms/TLaD
+It is recommended to use parameter "--public-ip-sku Standard" to create new VM with Standard public IP. Please note that the default public IP used for VM creation will be changed from Basic to Standard in the future.
+{
+  "fqdns": "",
+  "id": "/subscriptions/44d15a63-4c58-4e53-b410-5ab26efc30c4/resourceGroups/test_resource_group_lesson_3/providers/Microsoft.Compute/virtualMachines/virtual_machine_name_lesson_3",
+  "location": "westus",
+  "macAddress": "00-22-48-09-0C-9E",
+  "powerState": "VM running",
+  "privateIpAddress": "10.0.0.4",
+  "publicIpAddress": "20.237.232.11",
+  "resourceGroup": "test_resource_group_lesson_3",
+  "zones": ""
+}
+egavrilenko@ODL2011007 Task 03 % 
